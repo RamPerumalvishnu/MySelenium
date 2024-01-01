@@ -1,0 +1,9 @@
+suiteC\TestCC.class
+testSuiteBase\testbase.class
+suiteB\TestBB.class
+suiteA\TestA.class
+suiteA\TestAA.class
+listener\MyTestListener.class
+suiteC\TestC.class
+dataProvider\TestDataProvider.class
+suiteB\TestB.class

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.121" tests="12" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Ramkumar\Workspace\TestNgSkeleton\target\test-classes;C:\Ramkumar\Workspace\TestNgSkeleton\target\classes;C:\Users\lramk\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\lramk\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\lramk\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\lramk\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\lramk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\lramk\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\lramk\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\lramk\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\lramk\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\lramk\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\lramk\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\lramk\AppData\Local\Temp\surefire14619626594215199334\surefirebooter-20231231151238287_3.jar C:\Users\lramk\AppData\Local\Temp\surefire14619626594215199334 2023-12-31T15-12-38_175-jvmRun1 surefire-20231231151238287_1tmp surefire_0-20231231151238287_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Ramkumar\Workspace\TestNgSkeleton\target\test-classes;C:\Ramkumar\Workspace\TestNgSkeleton\target\classes;C:\Users\lramk\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\lramk\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\lramk\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\lramk\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\lramk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\lramk\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\lramk\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\lramk\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\lramk\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\lramk\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\lramk\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\lramk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Ramkumar\Workspace\TestNgSkeleton"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\lramk\AppData\Local\Temp\surefire14619626594215199334\surefirebooter-20231231151238287_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="user.name" value="lramk"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\lramk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\lramk\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="C:\Ramkumar\Workspace\TestNgSkeleton"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\dotnet\;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Program Files\Java\jdk-20\bin;C:\Ramkumar\Maven\apache-maven-3.9.6\bin;C:\Ramkumar\Jars;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\lramk\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Users\lramk\AppData\Roaming\npm;C:\Users\lramk\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="testA[chrome, U1, P1](1)" classname="suiteA.TestA" time="2.035">
+    <failure message="The following asserts failed:&#10;	Title Do not match,&#10;	Failing and stopping the test case" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	Title Do not match,
+	Failing and stopping the test case
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at testSuiteBase.testbase.failandstoptest(testbase.java:67)
+	at suiteA.TestA.testA(TestA.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : listener.MyTestListener
+[TestNG] [WARN] Ignoring duplicate listener : listener.MyTestListener
+[TestNG] [WARN] Ignoring duplicate listener : listener.MyTestListener
+Data for Suite A 2
+Sun Dec 31 15-12-38 IST 2023
+browserGroup1
+sanity
+Starting testA ----- ---chrome
+Title do not match
+]]></system-out>
+  </testcase>
+  <testcase name="testA[Mozilla, U1, P1](2)" classname="suiteA.TestA" time="2.008">
+    <failure message="The following asserts failed:&#10;	Title Do not match,&#10;	Failing and stopping the test case" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	Title Do not match,
+	Failing and stopping the test case
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at testSuiteBase.testbase.failandstoptest(testbase.java:67)
+	at suiteA.TestA.testA(TestA.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Test Failed
+browserGroup1
+sanity
+Starting testA ----- ---Mozilla
+Title do not match
+]]></system-out>
+  </testcase>
+  <testcase name="testAA[Firefox, U1, P1](1)" classname="suiteA.TestAA" time="0.0">
+    <system-out><![CDATA[Test Failed
+Data for Suite A 2
+browserGroup1
+smoke
+sanity
+Starting testAA ----- ---Firefox
+]]></system-out>
+  </testcase>
+  <testcase name="testAA[Ie, U1, P1](2)" classname="suiteA.TestAA" time="0.0">
+    <system-out><![CDATA[Test Passed
+browserGroup1
+smoke
+sanity
+Starting testAA ----- ---Ie
+]]></system-out>
+  </testcase>
+  <testcase name="testB[mozilla, U1, P1](1)" classname="suiteB.TestB" time="2.006">
+    <system-out><![CDATA[Test Passed
+Data for Suite B 2
+browserGroup2
+smoke
+Starting testB ----- ---mozilla
+]]></system-out>
+  </testcase>
+  <testcase name="testB[chrome, U1, P1](2)" classname="suiteB.TestB" time="2.006">
+    <system-out><![CDATA[Test Passed
+browserGroup2
+smoke
+Starting testB ----- ---chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testBB[chrome, U1, P1](1)" classname="suiteB.TestBB" time="2.004">
+    <system-out><![CDATA[Test Passed
+Data for Suite B 2
+browserGroup1
+smoke
+sanity
+Starting testBB ----- ---chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testBB[mozilla, U1, P1](2)" classname="suiteB.TestBB" time="2.006">
+    <system-out><![CDATA[Test Passed
+browserGroup1
+smoke
+sanity
+Starting testBB ----- ---mozilla
+]]></system-out>
+  </testcase>
+  <testcase name="testC[chrome, U1, P1](1)" classname="suiteC.TestC" time="2.008">
+    <system-out><![CDATA[Test Passed
+Data for Suite C 2
+browserGroup1
+sanity
+Starting testC ----- ---chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testC[mozilla, U1, P1](2)" classname="suiteC.TestC" time="2.004">
+    <system-out><![CDATA[Test Passed
+browserGroup1
+sanity
+Starting testC ----- ---mozilla
+]]></system-out>
+  </testcase>
+  <testcase name="testCC[null, U1, P1](1)" classname="suiteC.TestCC" time="2.009">
+    <system-out><![CDATA[Test Passed
+Data for Suite C 2
+browserGroup2
+smoke
+Starting testCC ----- ---null
+]]></system-out>
+  </testcase>
+  <testcase name="testCC[mozilla, U1, P1](2)" classname="suiteC.TestCC" time="2.004">
+    <system-out><![CDATA[Test Passed
+browserGroup2
+smoke
+Starting testCC ----- ---mozilla
+]]></system-out>
+  </testcase>
+</testsuite>
